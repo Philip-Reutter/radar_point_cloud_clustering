@@ -21,7 +21,7 @@ Developed as part of a university project for the *Sensorik* module, this projec
 
 | 1. Standard Spatial DBSCAN | 2. ST-DBSCAN (Current Detections) | 3. ST-DBSCAN (Accumulated History $t \le ts-2$) |
 | :---: | :---: | :---: |
-| ![Standard DBSCAN](docs/dbscan_spatial.png) | ![ST-DBSCAN Current](docs/st_dbscan_current.png) | ![ST-DBSCAN Multi-Frame](docs/st_dbscan_multiframe.png) |
+| ![Standard DBSCAN](assets/dbscan_spatial.png) | ![ST-DBSCAN Current](assets/st_dbscan_current.png) | ![ST-DBSCAN Multi-Frame](assets/st_dbscan_multiframe.png) |
 | *Spatial-only clustering on the current frame.* | *Current frame detections clustered via ST-DBSCAN (e.g., leading vehicle correctly segmented).* | *Full spatio-temporal point cloud ($t, t-1, t-2$) revealing the point density that enabled cluster detection.* |
 
 ---
