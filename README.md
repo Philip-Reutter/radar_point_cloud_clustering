@@ -99,7 +99,7 @@ radar_point_cloud_clustering/
 ## Usage
 
 ### 1. Dataset Preparation
-Download the **RadarScenes** dataset from [radar-scenes.com](https://radar-scenes.com/) extract them and edit `src/constants.py` to set file location.
+Download the **RadarScenes** dataset from [radar-scenes.com](https://radar-scenes.com/), extract it, and edit `src/constants.py` to set the file location.
 
 ### 2. Environment Setup and Running Scripts
 ```bash
